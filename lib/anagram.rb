@@ -11,7 +11,7 @@ class Anagram
     word = @word.split('').sort 
     anagram_array.each do |anagram|
       if anagram.split('').sort == word 
-        result = anagram  
+        result << anagram  
       end
     end
     result 
