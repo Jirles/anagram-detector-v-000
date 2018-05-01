@@ -13,7 +13,7 @@ class Anagram
         result = word 
       end
     end
-    word 
+    result 
   end
   
 end
